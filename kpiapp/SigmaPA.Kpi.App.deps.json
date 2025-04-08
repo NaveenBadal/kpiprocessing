@@ -1,0 +1,947 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SigmaPA.Kpi.App/1.0.0": {
+        "dependencies": {
+          "SigmaPA.Kpi.Lib": "1.0.0",
+          "System.CommandLine": "2.0.0.0"
+        },
+        "runtime": {
+          "SigmaPA.Kpi.App.dll": {}
+        }
+      },
+      "Converter/1.0.0": {
+        "dependencies": {
+          "Meritech.FileReader": "1.0.0",
+          "SigmaPAAdapters": "1.0.0"
+        },
+        "runtime": {
+          "Converter.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DefaultLegendResources/1.0.0": {
+        "dependencies": {
+          "SigmaPA.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "DefaultLegendResources.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "ja-JP/DefaultLegendResources.resources.dll": {
+            "locale": "ja-JP"
+          }
+        }
+      },
+      "Licensing/1.0.0": {
+        "runtime": {
+          "Licensing.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "ja-JP/Licensing.resources.dll": {
+            "locale": "ja-JP"
+          }
+        }
+      },
+      "Meritech.AntennaLib/1.0.0": {
+        "runtime": {
+          "Meritech.AntennaLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "ja-JP/Meritech.AntennaLib.resources.dll": {
+            "locale": "ja-JP"
+          }
+        }
+      },
+      "Meritech.Devices/1.0.0": {
+        "runtime": {
+          "Meritech.Devices.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Devices.NavNmea/1.0.0": {
+        "dependencies": {
+          "Meritech.Devices": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.Devices.NavNmea.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Devices.NavPanasonic/1.0.0": {
+        "dependencies": {
+          "Meritech.Devices": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.Devices.NavPanasonic.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Devices.NBIoT/1.0.0": {
+        "dependencies": {
+          "Meritech.Devices": "1.0.0",
+          "Meritech.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.Devices.NBIoT.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Devices.Nemo/1.0.0": {
+        "runtime": {
+          "Meritech.Devices.Nemo.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Devices.PhoneQcm/1.0.0": {
+        "dependencies": {
+          "Meritech.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.Devices.PhoneQcm.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Devices.ScannerPCTel/1.0.0": {
+        "dependencies": {
+          "Meritech.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.Devices.ScannerPCTel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Devices.ScannerVicom/1.0.0": {
+        "dependencies": {
+          "Meritech.Devices": "1.0.0",
+          "Meritech.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.Devices.ScannerVicom.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.EventDecodeQcm/1.0.0": {
+        "dependencies": {
+          "Meritech.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.EventDecodeQcm.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.FileReader/1.0.0": {
+        "dependencies": {
+          "Meritech.Devices.NBIoT": "1.0.0",
+          "Meritech.Devices.NavNmea": "1.0.0",
+          "Meritech.Devices.NavPanasonic": "1.0.0",
+          "Meritech.Devices.Nemo": "1.0.0",
+          "Meritech.Devices.PhoneQcm": "1.0.0",
+          "Meritech.Devices.ScannerPCTel": "1.0.0",
+          "Meritech.Devices.ScannerVicom": "1.0.0",
+          "Meritech.EventDecodeQcm": "1.0.0",
+          "Meritech.Protocols.ImtNas.R15": "1.0.0",
+          "Meritech.Protocols.ImtRlc.R8": "1.0.0",
+          "Meritech.Protocols.ImtRr.R8": "1.0.0",
+          "Meritech.Protocols.ImtRrc.R15": "1.0.0",
+          "Meritech.Protocols.LteNas.R15": "1.0.0",
+          "Meritech.Protocols.LteRlc.R8": "1.0.0",
+          "Meritech.Protocols.LteRrc.R15": "1.0.0",
+          "Meritech.Protocols.Nr5g.R15": "1.0.0",
+          "Meritech.Protocols.NrNAS.R16": "1.0.0",
+          "Meritech.Utilities": "1.0.0",
+          "PcapEngine": "1.0.0",
+          "Persistence.SigmaPA": "1.0.0",
+          "SigmaPA.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.FileReader.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Handovers/1.0.0": {
+        "dependencies": {
+          "Meritech.Protocols.ImtNas.R15": "1.0.0",
+          "Meritech.Protocols.ImtRlc.R8": "1.0.0",
+          "Meritech.Protocols.ImtRr.R8": "1.0.0",
+          "Meritech.Protocols.ImtRrc.R15": "1.0.0",
+          "Meritech.Protocols.LteNas.R15": "1.0.0",
+          "Meritech.Protocols.LteRrc.R15": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.Handovers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Protocols.ImtNas.R15/1.0.0": {
+        "runtime": {
+          "Meritech.Protocols.ImtNas.R15.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Protocols.ImtRlc.R8/1.0.0": {
+        "runtime": {
+          "Meritech.Protocols.ImtRlc.R8.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Protocols.ImtRr.R8/1.0.0": {
+        "runtime": {
+          "Meritech.Protocols.ImtRr.R8.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Protocols.ImtRrc.R15/1.0.0": {
+        "runtime": {
+          "Meritech.Protocols.ImtRrc.R15.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Protocols.LteNas.R15/1.0.0": {
+        "runtime": {
+          "Meritech.Protocols.LteNas.R15.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Protocols.LteRlc.R8/1.0.0": {
+        "runtime": {
+          "Meritech.Protocols.LteRlc.R8.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Protocols.LteRrc.R15/1.0.0": {
+        "runtime": {
+          "Meritech.Protocols.LteRrc.R15.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Protocols.Nr5g.R15/1.0.0": {
+        "runtime": {
+          "Meritech.Protocols.Nr5g.R15.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Protocols.NrNAS.R16/1.0.0": {
+        "runtime": {
+          "Meritech.Protocols.NrNAS.R16.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Meritech.Utilities/1.0.0": {
+        "dependencies": {
+          "Meritech.Devices": "1.0.0"
+        },
+        "runtime": {
+          "Meritech.Utilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PcapEngine/1.0.0": {
+        "dependencies": {
+          "Meritech.Utilities": "1.0.0",
+          "Persistence.SigmaPA": "1.0.0",
+          "SigmaPA.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "PcapEngine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Persistence.SigmaPA/1.0.0": {
+        "dependencies": {
+          "Meritech.AntennaLib": "1.0.0"
+        },
+        "runtime": {
+          "Persistence.SigmaPA.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "ja-JP/Persistence.SigmaPA.resources.dll": {
+            "locale": "ja-JP"
+          }
+        }
+      },
+      "Persistence.SigmaPA.PostgreSQL/1.0.0": {
+        "dependencies": {
+          "Meritech.Utilities": "1.0.0",
+          "Persistence.SigmaPA": "1.0.0",
+          "SigmaPA.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "Persistence.SigmaPA.PostgreSQL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SigmaPA.Import.Model/1.0.0": {
+        "dependencies": {
+          "Licensing": "1.0.0",
+          "Meritech.Devices.PhoneQcm": "1.0.0",
+          "Persistence.SigmaPA": "1.0.0",
+          "SigmaPA.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "SigmaPA.Import.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "ja-JP/SigmaPA.Import.Model.resources.dll": {
+            "locale": "ja-JP"
+          }
+        }
+      },
+      "SigmaPA.Kpi.Lib/1.0.0": {
+        "dependencies": {
+          "Converter": "1.0.0",
+          "SigmaPAAdapters": "1.0.0"
+        },
+        "runtime": {
+          "SigmaPA.Kpi.Lib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SigmaPA.Model/1.0.0": {
+        "dependencies": {
+          "Persistence.SigmaPA": "1.0.0",
+          "SigmaPA.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "SigmaPA.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "ja-JP/SigmaPA.Model.resources.dll": {
+            "locale": "ja-JP"
+          }
+        }
+      },
+      "SigmaPA.Utilities/1.0.0": {
+        "runtime": {
+          "SigmaPA.Utilities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SigmaPAAdapters/1.0.0": {
+        "dependencies": {
+          "DefaultLegendResources": "1.0.0",
+          "Meritech.FileReader": "1.0.0",
+          "Meritech.Handovers": "1.0.0",
+          "Meritech.Protocols.ImtNas.R15": "1.0.0",
+          "Meritech.Protocols.ImtRlc.R8": "1.0.0",
+          "Meritech.Protocols.ImtRr.R8": "1.0.0",
+          "Meritech.Protocols.ImtRrc.R15": "1.0.0",
+          "Meritech.Protocols.LteNas.R15": "1.0.0",
+          "Meritech.Protocols.LteRlc.R8": "1.0.0",
+          "Meritech.Protocols.LteRrc.R15": "1.0.0",
+          "Meritech.Protocols.Nr5g.R15": "1.0.0",
+          "Meritech.Protocols.NrNAS.R16": "1.0.0",
+          "Persistence.SigmaPA": "1.0.0",
+          "Persistence.SigmaPA.PostgreSQL": "1.0.0",
+          "SigmaPA.Import.Model": "1.0.0",
+          "SigmaPA.Model": "1.0.0",
+          "SigmaPA.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "SigmaPAAdapters.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.CommandLine/2.0.0.0": {
+        "runtime": {
+          "System.CommandLine.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.22.27201"
+          }
+        }
+      },
+      "DotNetZip/1.16.0.0": {
+        "runtime": {
+          "DotNetZip.dll": {
+            "assemblyVersion": "1.16.0.0",
+            "fileVersion": "1.16.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "MeritechLicenseClient/2.10.8321.25496": {
+        "runtime": {
+          "MeritechLicenseClient.dll": {
+            "assemblyVersion": "2.10.8321.25496",
+            "fileVersion": "2.10.8321.25496"
+          }
+        }
+      },
+      "log4net/3.0.3.0": {
+        "runtime": {
+          "log4net.dll": {
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.3.0"
+          }
+        }
+      },
+      "hasp_net_windows/5.11.1.23192": {
+        "runtime": {
+          "hasp_net_windows.dll": {
+            "assemblyVersion": "5.11.1.23192",
+            "fileVersion": "5.11.1.23192"
+          }
+        }
+      },
+      "Ninject/3.3.6.0": {
+        "runtime": {
+          "Ninject.dll": {
+            "assemblyVersion": "3.3.6.0",
+            "fileVersion": "3.3.6.0"
+          }
+        }
+      },
+      "Microsoft.Office.Interop.Excel/15.0.0.0": {
+        "runtime": {
+          "Microsoft.Office.Interop.Excel.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4795.1000"
+          }
+        }
+      },
+      "System.Data.OleDb/9.0.0.0": {
+        "runtime": {
+          "System.Data.OleDb.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "System.Management/9.0.0.0": {
+        "runtime": {
+          "System.Management.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "System.IO.Ports/9.0.0.0": {
+        "runtime": {
+          "System.IO.Ports.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Meritech.ScriptSettingModels/1.0.0.0": {
+        "runtime": {
+          "Meritech.ScriptSettingModels.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DotRas/1.2.3971.35487": {
+        "runtime": {
+          "DotRas.dll": {
+            "assemblyVersion": "1.2.3971.35487",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Interop.MbnApi/1.0.0.0": {
+        "runtime": {
+          "Interop.MbnApi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AE.Net.Mail/1.7.10.0": {
+        "runtime": {
+          "AE.Net.Mail.dll": {
+            "assemblyVersion": "1.7.10.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "RohdeSchwarz.ViCom.Net/1.0.0.0": {
+        "runtime": {
+          "RohdeSchwarz.ViCom.Net.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "23.0.0.1155"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/9.0.0.0": {
+        "runtime": {
+          "System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "System.Data.SQLite/1.0.119.0": {
+        "runtime": {
+          "System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.119.0",
+            "fileVersion": "1.0.119.0"
+          }
+        }
+      },
+      "System.Drawing.Common/9.0.0.0": {
+        "runtime": {
+          "System.Drawing.Common.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52901"
+          }
+        }
+      },
+      "asn1rt/7.4.3.0": {
+        "runtime": {
+          "asn1rt.dll": {
+            "assemblyVersion": "7.4.3.0",
+            "fileVersion": "7.4.3.0"
+          }
+        }
+      },
+      "asn1rtcs/7.8.2.0": {
+        "runtime": {
+          "asn1rtcs.dll": {
+            "assemblyVersion": "7.8.2.0",
+            "fileVersion": "7.8.2.0"
+          }
+        }
+      },
+      "Npgsql/9.0.2.0": {
+        "runtime": {
+          "Npgsql.dll": {
+            "assemblyVersion": "9.0.2.0",
+            "fileVersion": "9.0.2.0"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.6.1.6": {
+        "runtime": {
+          "System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.900.24.56208"
+          }
+        }
+      },
+      "NAudio/1.7.0.14": {
+        "runtime": {
+          "NAudio.dll": {
+            "assemblyVersion": "1.7.0.14",
+            "fileVersion": "1.7.0.14"
+          }
+        }
+      },
+      "Humanizer/1.19.1.0": {
+        "runtime": {
+          "Humanizer.dll": {
+            "assemblyVersion": "1.19.1.0",
+            "fileVersion": "1.19.1.0"
+          }
+        }
+      },
+      "RohdeSchwarz.Tools.Net/1.0.0.0": {
+        "runtime": {
+          "RohdeSchwarz.Tools.Net.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "23.0.0.1155"
+          }
+        }
+      },
+      "System.Private.Windows.Core/9.0.0.0": {
+        "runtime": {
+          "System.Private.Windows.Core.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52901"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SigmaPA.Kpi.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Converter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DefaultLegendResources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Licensing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.AntennaLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Devices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Devices.NavNmea/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Devices.NavPanasonic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Devices.NBIoT/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Devices.Nemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Devices.PhoneQcm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Devices.ScannerPCTel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Devices.ScannerVicom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.EventDecodeQcm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.FileReader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Handovers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Protocols.ImtNas.R15/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Protocols.ImtRlc.R8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Protocols.ImtRr.R8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Protocols.ImtRrc.R15/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Protocols.LteNas.R15/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Protocols.LteRlc.R8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Protocols.LteRrc.R15/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Protocols.Nr5g.R15/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Protocols.NrNAS.R16/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PcapEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Persistence.SigmaPA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Persistence.SigmaPA.PostgreSQL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SigmaPA.Import.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SigmaPA.Kpi.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SigmaPA.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SigmaPA.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SigmaPAAdapters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.CommandLine/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetZip/1.16.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MeritechLicenseClient/2.10.8321.25496": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "log4net/3.0.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "hasp_net_windows/5.11.1.23192": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ninject/3.3.6.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Office.Interop.Excel/15.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.OleDb/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Management/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IO.Ports/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meritech.ScriptSettingModels/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotRas/1.2.3971.35487": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Interop.MbnApi/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AE.Net.Mail/1.7.10.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RohdeSchwarz.ViCom.Net/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Configuration.ConfigurationManager/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.SQLite/1.0.119.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Drawing.Common/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "asn1rt/7.4.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "asn1rtcs/7.8.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Npgsql/9.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.SqlClient/4.6.1.6": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio/1.7.0.14": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Humanizer/1.19.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RohdeSchwarz.Tools.Net/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Private.Windows.Core/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
